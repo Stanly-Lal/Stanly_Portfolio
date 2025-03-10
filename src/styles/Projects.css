@@ -1,0 +1,203 @@
+.project-section {
+  width: 100vw;
+  min-height: 100%;
+  padding: 20px;
+  background-color: rgba(6, 13, 26, 0.88);
+}
+
+.projectHeading-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2.2rem;
+  color: white;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 128, 0, 0.198);
+  transition: all 0.5s ease;
+  height: 100px;
+  user-select: none;
+}
+
+.project-heading {
+  font-family: "Bebas Neue", serif;
+  text-shadow: 4px 4px 5px black;
+}
+
+.project-heading:hover {
+  transform: scale(0.9);
+}
+
+.projectHeading-container:hover {
+  transform: scale(0.9);
+}
+
+.project-container {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px 0 40px 0;
+}
+
+.carousel-imageContainer {
+  width: 90%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.project-title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: rgb(77, 255, 0);
+  background-color: rgba(134, 7, 245, 0.237);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.title {
+  font-size: 5rem;
+  font-family: "Bebas Neue", serif;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 900;
+  user-select: none;
+}
+
+.projectLink-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 70px;
+}
+
+.project-link {
+  padding: 2px 20px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.projectLink-style {
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", serif;
+  font-size: 2rem;
+  transition: all 0.4s linear;
+}
+
+.projectLink-style:hover {
+  color: aqua;
+}
+
+.carousel-imageContainer:hover .project-title {
+  opacity: 1;
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.437);
+}
+
+.btn-left {
+  left: 10px;
+}
+
+.btn-right {
+  right: 10px;
+}
+
+.slider-indicatorBtn {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.244);
+  padding: 0 10px;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.dot-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  color: rgba(100, 98, 98, 0.793);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dot-active {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+@media (max-width: 1024px) {
+  .btn-left {
+    left: -25px;
+  }
+
+  .btn-right {
+    right: -25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectHeading-container {
+    font-size: 1.9rem;
+    height: 80px;
+    line-height: 80px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .projectLink-style {
+    font-size: 1.4rem;
+  }
+  .project-link {
+    padding: 4px 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .projectHeading-container {
+    font-size: 1.7rem;
+    height: 70px;
+    line-height: 70px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}

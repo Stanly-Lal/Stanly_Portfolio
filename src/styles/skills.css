@@ -1,0 +1,150 @@
+.skill-container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+  padding-top: 190px;
+  background-color: rgba(6, 13, 26, 0.88);
+  box-shadow: 0 -100px 50px rgba(6, 13, 26, 0.88);
+  user-select: none;
+  padding-bottom: 40px;
+}
+
+.skillHeading-container {
+  width: 90%;
+  height: 80px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 2.2rem;
+  color: rgb(255, 217, 4);
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 128, 0, 0.198);
+  transition: all 0.5s ease;
+}
+
+.skill-heading {
+  font-family: "Bebas Neue", serif;
+  text-shadow: 4px 4px 5px black;
+  line-height: 80px;
+}
+
+.skillHeading-container:hover {
+  transform: scale(0.9);
+}
+
+.skillCard-container {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding: 10px;
+}
+
+.skill-card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  position: relative;
+  border: 2px solid rgb(255, 145, 0);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px yellowgreen;
+}
+
+.skillCard-imageContainer {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.skillCard-image {
+  width: 100%;
+  transition: all 0.5s ease;
+  filter: drop-shadow(4px 4px 5px black);
+}
+
+.skillCard-titleContainer {
+  width: 90%;
+  height: 20%;
+  background-color: rgba(128, 128, 128, 0.112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-title {
+  text-shadow: 4px 4px 5px black;
+}
+
+.skillCard-descriptionContainer {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.629);
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.5s ease;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transform-origin: bottom;
+  border-top: 1px solid yellow;
+  text-shadow: 2px 2px 5px black;
+}
+
+.skill-card:hover .skillCard-descriptionContainer {
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.skill-card:hover .skillCard-imageContainer {
+  transform: scale(0.9);
+}
+
+.skill-card:hover .skillCard-image {
+  filter: drop-shadow(4px 4px 10px magenta);
+}
+
+@media (max-width: 490px) {
+  .skill-container {
+    padding-top: 100px;
+  }
+  .skillCard-descriptionContainer {
+    height: 170px;
+  }
+  .skillCard-titleContainer {
+    font-size: 0.9rem;
+  }
+  .skillHeading-container {
+    height: 90px;
+    line-height: 90px;
+    font-size: 1.9rem;
+  }
+}
