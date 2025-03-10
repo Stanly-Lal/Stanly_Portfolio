@@ -157,7 +157,7 @@ const ContactMe = () => {
           className="queryForm-container"
           data-aos="flip-down"
           data-aos-offset="200"
-          data-aos-duration="600"
+          data-aos-duration="650"
           data-aos-easing="linear"
         >
           <form
