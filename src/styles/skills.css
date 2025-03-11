@@ -147,4 +147,41 @@
     line-height: 90px;
     font-size: 1.9rem;
   }
+  .skill-heading {
+    line-height: 90px;
+  } 
 }
+
+@media (max-width: 320px) {
+  .skill-container {
+    padding-top: 20px;
+  }
+  .skillHeading-container {
+    height: 80px;
+    font-size: 1.5rem;
+  }
+  .skill-heading {
+    line-height: 80px;
+  }
+  .skillCard-descriptionContainer {
+    height: 140px;
+    font-size: 0.8rem;
+  }
+  .skillCard-titleContainer {
+    font-size: 0.6rem;
+  }
+  .skill-card  {
+    height: 350px;
+  }
+ 
+}
+
+@media (max-width: 302px) {
+  .skill-card  {
+    height: 300px;
+  }
+  .skillCard-descriptionContainer {
+    font-size: 0.75rem;
+  }
+}
+

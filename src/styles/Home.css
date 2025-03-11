@@ -459,3 +459,43 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 320px) {
+  .resume-btn {
+    padding: 9px 18px;
+  }
+  .typeText-container {
+    font-size: 1.5rem;
+  }
+  .download-icon {
+    font-size: 0.7rem;
+  }
+  .stillText-container {
+    font-size: 0.4rem;
+  }
+  .devCard-container {
+    width: 150px;
+    height: 200px;
+    z-index: -2;
+  }
+  .intro-container {
+    padding: 10px;
+  }
+  .home-right {
+    padding-bottom: 10px;
+  }
+  .home-left {
+    padding-bottom: 10px;
+  }
+  .intro-container {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 302px) {
+  .resume-btn {
+    font-size: 0.6rem;
+    padding: 9px 15px;
+  }
+
+}

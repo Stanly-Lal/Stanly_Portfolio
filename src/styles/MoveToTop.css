@@ -65,6 +65,15 @@
     }   
 }
 
+@media (max-width: 320px) {
+    .mttBtn-text {
+        font-size: 0.8rem;
+    } 
+    .mttBtn-text {
+        letter-spacing: 4px;
+    }    
+}
+
 @media (max-width: 300px) {
     .mttBtn-text {
         letter-spacing: 5px;

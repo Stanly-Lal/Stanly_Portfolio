@@ -200,4 +200,54 @@
   .title {
     font-size: 1.5rem;
   }
+  .projectLink-style {
+    font-size: 1rem;
+  }
+  .project-link {
+    padding: 4px 9px;
+  }
+  .btn {
+    font-size: 1.9rem;
+  }
 }
+
+@media (max-width: 320px) {
+  .projectHeading-container {
+    font-size: 1.4rem;
+    height: 60px;
+  }
+  .project-heading {
+    line-height: 60px;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .projectLink-style {
+    font-size: 0.8rem;
+  }
+  .project-link {
+    padding: 2.5px 7px;
+    border-radius: 7px;
+  }
+  .btn {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 302px) {
+  .title {
+    font-size: 1.2rem;
+  }
+  .projectLink-style {
+    font-size: 0.7rem;
+  }
+  .project-link {
+    padding: 2px 5px;
+    border-radius: 7px;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+
+}
+

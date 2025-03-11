@@ -16,7 +16,7 @@ const Skills = () => {
           <h1
             className="skill-heading"
             data-aos="flip-right"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-duration="600"
             data-aos-easing="linear"
           >

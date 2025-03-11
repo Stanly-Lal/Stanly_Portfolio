@@ -138,3 +138,16 @@ header {
     transition: all 0.4s ease-in-out;
   }
 }
+
+@media (max-width: 320px) {
+  .logo {
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  .ham-menuBtn  {
+    font-size: 1.8rem;
+  }
+  .nav-right {
+    max-width: 220px;
+  }
+}
