@@ -146,7 +146,7 @@ const ContactMe = () => {
           <h1
             className="contactMe-heading"
             data-aos="zoom-in"
-            data-aos-offset="150"
+            data-aos-offset="200"
             data-aos-duration="600"
             data-aos-easing="linear"
           >
@@ -156,8 +156,7 @@ const ContactMe = () => {
         <div
           className="queryForm-container"
           data-aos="flip-down"
-          data-aos-offset="200"
-          data-aos-duration="650"
+          data-aos-duration="900"
           data-aos-easing="linear"
         >
           <form
@@ -237,7 +236,7 @@ const ContactMe = () => {
             className="socialMediaIcons-container"
             data-aos="fade-up"
             data-aos-offset="50"
-            data-aos-duration="250"
+            data-aos-duration="500"
             data-aos-easing="linear"
           >
             <span className="socialMedia-icons">
