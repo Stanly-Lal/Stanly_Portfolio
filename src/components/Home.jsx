@@ -83,10 +83,10 @@ const Home = () => {
           <div className="devCard-container">
             <div className="devCard">
               <div className="devCard-front">
-                <img src={DevFaceImage} alt="" className="dev-faceImage" />
+                <img src={DevFaceImage} alt="Developer Image Here." className="dev-faceImage" />
               </div>
               <div className="devCard-back">
-                <img src={DevBackImage} alt="" className="dev-backImage" />
+                <img src={DevBackImage} alt="Secondary Image Here." className="dev-backImage" />
               </div>
             </div>
           </div>
